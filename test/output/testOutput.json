@@ -1,0 +1,520 @@
+[
+    {
+        "predicted_words_def": [
+            "see zythum",
+            "a shallow socket for the pivot of a capstan",
+            "a brewery. [r"
+        ],
+        "actual_def": "zythem",
+        "predicted_word": [
+            "zythem",
+            "saucer",
+            "zythepsary"
+        ],
+        "sentence": "see zythum"
+    },
+    {
+        "predicted_words_def": [
+            "a, as a prefix to english words, is derived from various sources",
+            "to swallow or eat greedily; to devour; hence, to swallow up",
+            "forward to meet danger; venturesome; daring; not timorous orshrinking from risk; brave; courageous"
+        ],
+        "actual_def": "a-",
+        "predicted_word": [
+            "a-",
+            "lurch",
+            "bold"
+        ],
+        "sentence": "a, as a prefix to english words, is derived from varioussources"
+    },
+    {
+        "predicted_words_def": [
+            "made slow and heavy in movement; water-logged. beaconsfield",
+            "the aggregate of risks covered by the terms of a contract of insurance",
+            "a convent or monastery. [obs.] bale"
+        ],
+        "actual_def": "measuring",
+        "predicted_word": [
+            "logged",
+            "coverage",
+            "covent"
+        ],
+        "sentence": "ascertaining measurements"
+    },
+    {
+        "predicted_words_def": [
+            "the extent, size, capacity, amount",
+            "to hide, withdraw, or be concealed",
+            "of or pertaining to the moon; as, lunar observations"
+        ],
+        "actual_def": "measurement",
+        "predicted_word": [
+            "measurement",
+            "abscond",
+            "lunar"
+        ],
+        "sentence": "the extent, size, capacity, amount"
+    },
+    {
+        "predicted_words_def": [
+            "the relinquishment of a right, claim, or privilege, as to mill site, etc",
+            "a soluble ferment, or enzyme. see enzyme",
+            "affected by lunacy; insane; mad"
+        ],
+        "actual_def": "coverchief",
+        "predicted_word": [
+            "abandonment",
+            "zymase",
+            "lunatic"
+        ],
+        "sentence": "an object used to cover the head"
+    },
+    {
+        "predicted_words_def": [
+            "a sign and a constellation; leo",
+            "the party who makes a covenant. burrill",
+            "one who abandons. beau. & fl"
+        ],
+        "actual_def": "abandoner",
+        "predicted_word": [
+            "lion",
+            "covenantor",
+            "abandoner"
+        ],
+        "sentence": "a person who abandons"
+    },
+    {
+        "predicted_words_def": [
+            "a brazilian monkey of the genus mycetes",
+            "see covinous, and covin",
+            "a small log or piece of wood"
+        ],
+        "actual_def": "ouarine",
+        "predicted_word": [
+            "ouarine",
+            "covenous",
+            "loggat"
+        ],
+        "sentence": "monkey of the genus mycetes"
+    },
+    {
+        "predicted_words_def": [
+            "divided by internal partitions into cells, as the pith of thepokeweed",
+            "a bitter principle extracted from hops",
+            "any smell, whether fragrant or offensive; scent; perfume"
+        ],
+        "actual_def": "otto_cycle",
+        "predicted_word": [
+            "loculicidal",
+            "lupulin",
+            "odor"
+        ],
+        "sentence": "the cycle of a four stroke internal combustion engine"
+    },
+    {
+        "predicted_words_def": [
+            "an ottoman. [r.] shak",
+            "a brewery. [r",
+            "any smell, whether fragrant or offensive; scent; perfume"
+        ],
+        "actual_def": "ottomite",
+        "predicted_word": [
+            "ottomite",
+            "zythepsary",
+            "odor"
+        ],
+        "sentence": "who is an ottoman"
+    },
+    {
+        "predicted_words_def": [
+            "a small log or piece of wood",
+            "a micaceous mineral occurring in small scales",
+            "a dutch and german measure of liquids, varying in different cities, being at amsterdam about 41 wine gallons, at antwerp 36\u00bd, at hamburg 38\u00bc. [written also aum and awm"
+        ],
+        "actual_def": "ottrelite",
+        "predicted_word": [
+            "loggat",
+            "ottrelite",
+            "aam"
+        ],
+        "sentence": "a mineral occuring in small quantities"
+    },
+    {
+        "predicted_words_def": [
+            "any south american monkey of the genus brachyurus, especiallyb. ouakari",
+            "the aggregate of risks covered by the terms of a contract of insurance",
+            "belonging to a covenant"
+        ],
+        "actual_def": "ouakari",
+        "predicted_word": [
+            "ouakari",
+            "coverage",
+            "covenanting"
+        ],
+        "sentence": "monkey of the genus brachyurus"
+    },
+    {
+        "predicted_words_def": [
+            "a brazilian monkey of the genus mycetes",
+            "belonging to a covenant",
+            "the aggregate of risks covered by the terms of a contract of insurance"
+        ],
+        "actual_def": "ouarine",
+        "predicted_word": [
+            "ouarine",
+            "covenanting",
+            "coverage"
+        ],
+        "sentence": "name a a brazilian monkey"
+    },
+    {
+        "predicted_words_def": [
+            "anywhere; somewhere. see owher. [obs",
+            "an expletive, void of sense, to fill up the meter a merry heart goes all the day, your sad tires in a mile-a. shak",
+            "a brazilian monkey of the genus mycetes"
+        ],
+        "actual_def": "ouch",
+        "predicted_word": [
+            "oughwhere",
+            "a",
+            "ouarine"
+        ],
+        "sentence": "socket holding a precious stone"
+    },
+    {
+        "predicted_words_def": [
+            "a soft crayon for use in stump drawing or in shading with the stump",
+            "a spore formed by the union of the contents of two similar cells, either of the same or of distinct individual plants",
+            "a brazilian monkey of the genus mycetes"
+        ],
+        "actual_def": "sauce",
+        "predicted_word": [
+            "sauce",
+            "zygosperm",
+            "ouarine"
+        ],
+        "sentence": "crayon used for use stump drawing"
+    },
+    {
+        "predicted_words_def": [
+            "a small pan with a handle, in which sauce is prepared over afire; a stewpan",
+            "presenting a clear view; easily understood; clear",
+            "a town in the county of warwick, england"
+        ],
+        "actual_def": "saucepan",
+        "predicted_word": [
+            "saucepan",
+            "lucid",
+            "coventry"
+        ],
+        "sentence": "a vessel with handle to prepare sauce"
+    },
+    {
+        "predicted_words_def": [
+            "the party who makes a covenant. burrill",
+            "a brazilian monkey of the genus mycetes",
+            "celluloid"
+        ],
+        "actual_def": "saucily",
+        "predicted_word": [
+            "covenantor",
+            "ouarine",
+            "zylonite"
+        ],
+        "sentence": "impudently"
+    },
+    {
+        "predicted_words_def": [
+            "nonsense; stuff; also, fashion; style",
+            "to hate",
+            "jack-by-the-hedge. see under jack"
+        ],
+        "actual_def": "sauciness",
+        "predicted_word": [
+            "kibosh",
+            "loathe",
+            "sauce-alone"
+        ],
+        "sentence": "quality or state of being saucy"
+    },
+    {
+        "predicted_words_def": [
+            "the relinquishment of a right, claim, or privilege, as to mill site, etc",
+            "to hide, withdraw, or be concealed",
+            "to supply with food. [obs.] tusser"
+        ],
+        "actual_def": "trust",
+        "predicted_word": [
+            "abandonment",
+            "abscond",
+            "meat"
+        ],
+        "sentence": "a hope or belief in something"
+    },
+    {
+        "predicted_words_def": [
+            "a knot, or stop, in the middle of a flag. [written also wheft",
+            "closeness of attention or application of mind; attentiveness",
+            "a bitter principle extracted from hops"
+        ],
+        "actual_def": "waft",
+        "predicted_word": [
+            "waft",
+            "intentiveness",
+            "lupulin"
+        ],
+        "sentence": "a stop in the middle of a flag"
+    },
+    {
+        "predicted_words_def": [
+            "the first meal in the day, or that which is eaten at the firstmeal",
+            "garrulous",
+            "the wanderoo"
+        ],
+        "actual_def": "zygosperm",
+        "predicted_word": [
+            "breakfast",
+            "loquacious",
+            "ouanderoo"
+        ],
+        "sentence": "spore produces by the fusion of two similar cells"
+    },
+    {
+        "predicted_words_def": [
+            "a soluble ferment, or enzyme. see enzyme",
+            "flattery; deceit; trickery",
+            "of or pertaining to a meatus; resembling a meatus. owen"
+        ],
+        "actual_def": "zymase",
+        "predicted_word": [
+            "zymase",
+            "losengerie",
+            "meatal"
+        ],
+        "sentence": "a soluble ferment"
+    },
+    {
+        "predicted_words_def": [
+            "a shallow socket for the pivot of a capstan",
+            "a small log or piece of wood",
+            "to hate"
+        ],
+        "actual_def": "bold",
+        "predicted_word": [
+            "saucer",
+            "loggat",
+            "loathe"
+        ],
+        "sentence": "brave and courageous"
+    },
+    {
+        "predicted_words_def": [
+            "a bitter principle extracted from hops",
+            "any smell, whether fragrant or offensive; scent; perfume",
+            "dialect"
+        ],
+        "actual_def": "inquisitive",
+        "predicted_word": [
+            "lupulin",
+            "odor",
+            "lingo"
+        ],
+        "sentence": "someone who is curious"
+    },
+    {
+        "predicted_words_def": [
+            "of or pertaining to the moon; as, lunar observations",
+            "in a saucy manner; impudently; with impertinent boldness",
+            "a complete giving up to natural impulses; freedom from artificial constraint; careless freedom or ease"
+        ],
+        "actual_def": "lewd",
+        "predicted_word": [
+            "lunar",
+            "saucily",
+            "abandon"
+        ],
+        "sentence": "unlawful sexual desire expressed in thoughts, conduct, or language"
+    },
+    {
+        "predicted_words_def": [
+            "fed; fattened. [obs.] tusser",
+            "anywhere; somewhere. see owher. [obs",
+            "a zymotic disease. [r"
+        ],
+        "actual_def": "live",
+        "predicted_word": [
+            "meated",
+            "oughwhere",
+            "zymosis"
+        ],
+        "sentence": "to dwell"
+    },
+    {
+        "predicted_words_def": [
+            "that which is lifted up; an elevation",
+            "in a saucy manner; impudently; with impertinent boldness",
+            "flattery; deceit; trickery"
+        ],
+        "actual_def": "loft",
+        "predicted_word": [
+            "loft",
+            "saucily",
+            "losengerie"
+        ],
+        "sentence": "to be lifted up"
+    },
+    {
+        "predicted_words_def": [
+            "a small log or piece of wood",
+            "a dutch and german measure of liquids, varying in different cities, being at amsterdam about 41 wine gallons, at antwerp 36\u00bd, at hamburg 38\u00bc. [written also aum and awm",
+            "to perceive by the olfactory nerves, or organs of smell; to have a sensation of, excited through the nasal organs when affected by the appropriate materials or qualities; to obtain the scent of; as, tosmell a rose; to smell perfumes"
+        ],
+        "actual_def": "loggat",
+        "predicted_word": [
+            "loggat",
+            "aam",
+            "smell"
+        ],
+        "sentence": "a small log or piece of wood"
+    },
+    {
+        "predicted_words_def": [
+            "made slow and heavy in movement; water-logged. beaconsfield",
+            "the relinquishment of a right, claim, or privilege, as to mill site, etc",
+            "the party who makes a covenant. burrill"
+        ],
+        "actual_def": "logged",
+        "predicted_word": [
+            "logged",
+            "abandonment",
+            "covenantor"
+        ],
+        "sentence": "made slow and heavy in movement"
+    },
+    {
+        "predicted_words_def": [
+            "the manila-hemp plant (musa textilis); also, its fiber",
+            "fed; fattened. [obs.] tusser",
+            "to supply with food. [obs.] tusser"
+        ],
+        "actual_def": "loiter",
+        "predicted_word": [
+            "abaca",
+            "meated",
+            "meat"
+        ],
+        "sentence": "to spend time idly"
+    },
+    {
+        "predicted_words_def": [
+            "a zymotic disease. [r",
+            "flattery; deceit; trickery",
+            "fed; fattened. [obs.] tusser"
+        ],
+        "actual_def": "loll",
+        "predicted_word": [
+            "zymosis",
+            "losengerie",
+            "meated"
+        ],
+        "sentence": "to act lazily"
+    },
+    {
+        "predicted_words_def": [
+            "for a long time; hence, wearisomely",
+            "the wanderoo",
+            "a long tailed monkey"
+        ],
+        "actual_def": "longly",
+        "predicted_word": [
+            "longly",
+            "ouanderoo",
+            "lungoor"
+        ],
+        "sentence": "for a long time"
+    },
+    {
+        "predicted_words_def": [
+            "nonsense; stuff; also, fashion; style",
+            "the quality or state of being saucy; that which is saucy;impertinent boldness; contempt of superiors; impudence",
+            "the manila-hemp plant (musa textilis); also, its fiber"
+        ],
+        "actual_def": "look",
+        "predicted_word": [
+            "kibosh",
+            "sauciness",
+            "abaca"
+        ],
+        "sentence": "to direct the eyes to see something"
+    },
+    {
+        "predicted_words_def": [
+            "belonging to a covenant",
+            "a linen stocking",
+            "a soluble ferment, or enzyme. see enzyme"
+        ],
+        "actual_def": "loquacious",
+        "predicted_word": [
+            "covenanting",
+            "linen",
+            "zymase"
+        ],
+        "sentence": "too much talking"
+    },
+    {
+        "predicted_words_def": [
+            "any south american monkey of the genus brachyurus, especiallyb. ouakari",
+            "the party who makes a covenant. burrill",
+            "presenting a clear view; easily understood; clear"
+        ],
+        "actual_def": "lucent",
+        "predicted_word": [
+            "ouakari",
+            "covenantor",
+            "lucid"
+        ],
+        "sentence": "bright"
+    },
+    {
+        "predicted_words_def": [
+            "the party who makes a covenant. burrill",
+            "presenting a clear view; easily understood; clear",
+            "a prefix in many words of latin origin"
+        ],
+        "actual_def": "lucid",
+        "predicted_word": [
+            "covenantor",
+            "lucid",
+            "ab-"
+        ],
+        "sentence": "easily understood"
+    },
+    {
+        "predicted_words_def": [
+            "a long tailed monkey",
+            "a kind of ancient malt beverage; a liquor made from malt and wheat. [written also zythem",
+            "to hate"
+        ],
+        "actual_def": "lungoor",
+        "predicted_word": [
+            "lungoor",
+            "zythum",
+            "loathe"
+        ],
+        "sentence": "a monkey that is long tailed"
+    },
+    {
+        "predicted_words_def": [
+            "excess in eating; extravagant indulgence of the appetite for food; voracity",
+            "a sign and a constellation; leo",
+            "single; unmarried, or in widowhood"
+        ],
+        "actual_def": "gluttony",
+        "predicted_word": [
+            "gluttony",
+            "lion",
+            "lone"
+        ],
+        "sentence": "greed for food or excess eating"
+    }
+]

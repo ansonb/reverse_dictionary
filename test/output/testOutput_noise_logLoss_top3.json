@@ -1,0 +1,284 @@
+[
+    {
+        "sentence": "supply food",
+        "actual_def": "meat",
+        "predicted_word": [
+            "meat",
+            "zymogenic",
+            "oul"
+        ],
+        "predicted_words_def": [
+            "to supply with food. [obs.] tusser",
+            "of or pertaining to zymology",
+            "an owl. [obs.] chaucer"
+        ]
+    },
+    {
+        "sentence": "ascertaining measurements",
+        "actual_def": "measuring",
+        "predicted_word": [
+            "ottomite",
+            "ouanderoo",
+            "zymose"
+        ],
+        "predicted_words_def": [
+            "an ottoman. [r.] shak",
+            "the wanderoo",
+            "invertin"
+        ]
+    },
+    {
+        "sentence": "the extent, size, capacity, amount",
+        "actual_def": "measurement",
+        "predicted_word": [
+            "measurement",
+            "abandoner",
+            "wafter"
+        ],
+        "predicted_words_def": [
+            "the extent, size, capacity, amount",
+            "one who abandons. beau. & fl",
+            "a boat for passage. ainsworth"
+        ]
+    },
+    {
+        "sentence": "an object used to cover the head",
+        "actual_def": "coverchief",
+        "predicted_word": [
+            "aard-vark",
+            "coverchief",
+            "ouarine"
+        ],
+        "predicted_words_def": [
+            "an edentate mammal, of the genus orycteropus, somewhatresembling a pig, common in some parts of southern africa",
+            "a covering for the head. [obs.] chaucer",
+            "a brazilian monkey of the genus mycetes"
+        ]
+    },
+    {
+        "sentence": "a person who abandons",
+        "actual_def": "abandoner",
+        "predicted_word": [
+            "abandoner",
+            "ouistiti",
+            "zymogenic"
+        ],
+        "predicted_words_def": [
+            "one who abandons. beau. & fl",
+            "see wistit",
+            "of or pertaining to zymology"
+        ]
+    },
+    {
+        "sentence": "monkey of the genus mycetes",
+        "actual_def": "ouarine",
+        "predicted_word": [
+            "ouarine",
+            "oughwhere",
+            "zymose"
+        ],
+        "predicted_words_def": [
+            "a brazilian monkey of the genus mycetes",
+            "anywhere; somewhere. see owher. [obs",
+            "invertin"
+        ]
+    },
+    {
+        "sentence": "the cycle of a four stroke internal combustion engine",
+        "actual_def": "otto_cycle",
+        "predicted_word": [
+            "zymotic",
+            "coverage",
+            "covent"
+        ],
+        "predicted_words_def": [
+            "designating, or pertaining to, a certain class of diseases",
+            "the aggregate of risks covered by the terms of a contract ofinsurance",
+            "a convent or monastery. [obs.] bale"
+        ]
+    },
+    {
+        "sentence": "who is an ottoman",
+        "actual_def": "ottomite",
+        "predicted_word": [
+            "ottomite",
+            "oul",
+            "measuring"
+        ],
+        "predicted_words_def": [
+            "an ottoman. [r.] shak",
+            "an owl. [obs.] chaucer",
+            "used in, or adapted for, ascertaining measurements, or dividingby measure"
+        ]
+    },
+    {
+        "sentence": "a mineral occuring in small quantities",
+        "actual_def": "ottrelite",
+        "predicted_word": [
+            "covenantor",
+            "ottrelite",
+            "ouanderoo"
+        ],
+        "predicted_words_def": [
+            "the party who makes a covenant. burrill",
+            "a micaceous mineral occurring in small scales",
+            "the wanderoo"
+        ]
+    },
+    {
+        "sentence": "monkey of the genus brachyurus",
+        "actual_def": "ouakari",
+        "predicted_word": [
+            "zymose",
+            "aard-vark",
+            "oughwhere"
+        ],
+        "predicted_words_def": [
+            "invertin",
+            "an edentate mammal, of the genus orycteropus, somewhatresembling a pig, common in some parts of southern africa",
+            "anywhere; somewhere. see owher. [obs"
+        ]
+    },
+    {
+        "sentence": "name a a brazilian monkey",
+        "actual_def": "ouarine",
+        "predicted_word": [
+            "zymosis",
+            "zythem",
+            "ouarine"
+        ],
+        "predicted_words_def": [
+            "a zymotic disease. [r",
+            "see zythum",
+            "a brazilian monkey of the genus mycetes"
+        ]
+    },
+    {
+        "sentence": "socket holding a precious stone",
+        "actual_def": "ouch",
+        "predicted_word": [
+            "covent",
+            "ouananiche",
+            "sauce-alone"
+        ],
+        "predicted_words_def": [
+            "a convent or monastery. [obs.] bale",
+            "a small landlocked variety of the atlantic salmon (salmo salarounaniche) of lake st",
+            "jack-by-the-hedge. see under jack"
+        ]
+    },
+    {
+        "sentence": "crayon used for use stump drawing",
+        "actual_def": "sauce",
+        "predicted_word": [
+            "sauce",
+            "ouistiti",
+            "ottoman"
+        ],
+        "predicted_words_def": [
+            "a soft crayon for use in stump drawing or in shading with thestump",
+            "see wistit",
+            "a stuffed seat without a back, originally used in turkey"
+        ]
+    },
+    {
+        "sentence": "a vessel with handle to prepare sauce",
+        "actual_def": "saucepan",
+        "predicted_word": [
+            "ouakari",
+            "aard-wolf",
+            "saucer"
+        ],
+        "predicted_words_def": [
+            "any south american monkey of the genus brachyurus, especiallyb. ouakari",
+            "a plant with a tall flowering stem; esp",
+            "a shallow socket for the pivot of a capstan"
+        ]
+    },
+    {
+        "sentence": "impudently",
+        "actual_def": "saucily",
+        "predicted_word": [
+            "zymose",
+            "zylonite",
+            "a_1"
+        ],
+        "predicted_words_def": [
+            "invertin",
+            "celluloid",
+            "3"
+        ]
+    },
+    {
+        "sentence": "quality or state of being saucy",
+        "actual_def": "sauciness",
+        "predicted_word": [
+            "abandonedly",
+            "zymogenic",
+            "zymosis"
+        ],
+        "predicted_words_def": [
+            "unrestrainedly",
+            "of or pertaining to zymology",
+            "a zymotic disease. [r"
+        ]
+    },
+    {
+        "sentence": "a hope or belief in something",
+        "actual_def": "trust",
+        "predicted_word": [
+            "covenous",
+            "covenanting",
+            "oughne"
+        ],
+        "predicted_words_def": [
+            "see covinous, and covin",
+            "belonging to a covenant",
+            "own. [obs.] chaucer"
+        ]
+    },
+    {
+        "sentence": "a stop in the middle of a flag",
+        "actual_def": "waft",
+        "predicted_word": [
+            "ottoman",
+            "measuring",
+            "ouanderoo"
+        ],
+        "predicted_words_def": [
+            "a stuffed seat without a back, originally used in turkey",
+            "used in, or adapted for, ascertaining measurements, or dividingby measure",
+            "the wanderoo"
+        ]
+    },
+    {
+        "sentence": "spore produces by the fusion of two similar cells",
+        "actual_def": "zygosperm",
+        "predicted_word": [
+            "covenous",
+            "covenantor",
+            "saucer"
+        ],
+        "predicted_words_def": [
+            "see covinous, and covin",
+            "the party who makes a covenant. burrill",
+            "a shallow socket for the pivot of a capstan"
+        ]
+    },
+    {
+        "sentence": "a soluble ferment",
+        "actual_def": "zymase",
+        "predicted_word": [
+            "zymophyte",
+            "coventry",
+            "covenous"
+        ],
+        "predicted_words_def": [
+            "a bacteroid ferment",
+            "a town in the county of warwick, england",
+            "see covinous, and covin"
+        ]
+    }
+]
+
+accuracy: 0.45

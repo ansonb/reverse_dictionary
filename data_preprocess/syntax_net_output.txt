@@ -1,0 +1,17 @@
+Input: a knot , or stop , in the middle of a flag. -LRB- written also wheft
+Parse:
+knot NN ROOT
+ +-- a DT det
+ +-- , , punct
+ +-- or CC cc
+ +-- stop VB conj
+ +-- in IN prep
+ |   +-- middle NN pobj
+ |       +-- the DT det
+ |       +-- of IN prep
+ |           +-- flag. NN pobj
+ |               +-- a DT det
+ +-- -LRB- -LRB- punct
+ +-- written VBN partmod
+     +-- also RB advmod
+     +-- wheft WRB advmod

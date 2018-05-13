@@ -1,0 +1,358 @@
+[
+    {
+        "word_to_test": "brave",
+        "expected_matches": [
+            "courageous"
+        ],
+        "computed_matches": [
+            "oughwhere",
+            "saucepan",
+            "sauciness",
+            "zymosis"
+        ]
+    },
+    {
+        "word_to_test": "image",
+        "expected_matches": [
+            "conception"
+        ],
+        "computed_matches": [
+            "sauciness",
+            "longevity",
+            "litigious",
+            "hide"
+        ]
+    },
+    {
+        "word_to_test": "searching",
+        "expected_matches": [
+            "curious"
+        ],
+        "computed_matches": [
+            "loose",
+            "waftage",
+            "oubliette",
+            "odor"
+        ]
+    },
+    {
+        "word_to_test": "inquisitive",
+        "expected_matches": [
+            "investigative"
+        ],
+        "computed_matches": [
+            "inquisitive",
+            "litigious",
+            "prize",
+            "loft"
+        ]
+    },
+    {
+        "word_to_test": "lustfulness",
+        "expected_matches": [
+            "libidinous"
+        ],
+        "computed_matches": [
+            "longevity",
+            "lone",
+            "lunatic",
+            "loggat"
+        ]
+    },
+    {
+        "word_to_test": "halt",
+        "expected_matches": [
+            "lamely"
+        ],
+        "computed_matches": [
+            "lingo",
+            "oul",
+            "zythepsary",
+            "aard-wolf"
+        ]
+    },
+    {
+        "word_to_test": "cloth",
+        "expected_matches": [
+            "stocking"
+        ],
+        "computed_matches": [
+            "loggat",
+            "zymic",
+            "loculicidal",
+            "ouanderoo"
+        ]
+    },
+    {
+        "word_to_test": "delay",
+        "expected_matches": [
+            "loiter",
+            "wait",
+            "slow",
+            "insuspense",
+            "hesitate"
+        ],
+        "computed_matches": [
+            "smirk",
+            "logged",
+            "investigative",
+            "ouarine"
+        ]
+    },
+    {
+        "word_to_test": "lion",
+        "expected_matches": [
+            "lupus"
+        ],
+        "computed_matches": [
+            "lion",
+            "zymase",
+            "prize",
+            "litigious"
+        ]
+    },
+    {
+        "word_to_test": "liquidity",
+        "expected_matches": [
+            "fluency"
+        ],
+        "computed_matches": [
+            "zymase",
+            "liquidity",
+            "covenantor",
+            "zymosis"
+        ]
+    },
+    {
+        "word_to_test": "indifferent",
+        "expected_matches": [
+            "heedless",
+            "spiritless"
+        ],
+        "computed_matches": [
+            "abandoner",
+            "zythepsary",
+            "loquacious",
+            "abacinate"
+        ]
+    },
+    {
+        "word_to_test": "disputable",
+        "expected_matches": [
+            "controvertible",
+            "debatable",
+            "doubtful",
+            "precarious"
+        ],
+        "computed_matches": [
+            "loft",
+            "abaca",
+            "losengerie",
+            "abacination"
+        ]
+    },
+    {
+        "word_to_test": "abide",
+        "expected_matches": [
+            "dwell",
+            "reside"
+        ],
+        "computed_matches": [
+            "ouanderoo",
+            "longevity",
+            "loft",
+            "wafter"
+        ]
+    },
+    {
+        "word_to_test": "active",
+        "expected_matches": [
+            "lively",
+            "vigorous"
+        ],
+        "computed_matches": [
+            "zythepsary",
+            "oughtness",
+            "meated",
+            "coventry"
+        ]
+    },
+    {
+        "word_to_test": "abhor",
+        "expected_matches": [
+            "hate"
+        ],
+        "computed_matches": [
+            "oubliette",
+            "sauciness",
+            "bold",
+            "private"
+        ]
+    },
+    {
+        "word_to_test": "lifted",
+        "expected_matches": [
+            "elevation"
+        ],
+        "computed_matches": [
+            "longly",
+            "kibosh",
+            "lifted",
+            "covenous"
+        ]
+    },
+    {
+        "word_to_test": "delay",
+        "expected_matches": [
+            "loiter",
+            "wait",
+            "slow",
+            "insuspense",
+            "hesitate",
+            "long"
+        ],
+        "computed_matches": [
+            "smirk",
+            "logged",
+            "investigative",
+            "ouarine"
+        ]
+    },
+    {
+        "word_to_test": "unbound",
+        "expected_matches": [
+            "untied",
+            "unsewed"
+        ],
+        "computed_matches": [
+            "loathe",
+            "oughtness",
+            "private",
+            "ouch"
+        ]
+    },
+    {
+        "word_to_test": "talkative",
+        "expected_matches": [
+            "garrulous"
+        ],
+        "computed_matches": [
+            "lorn",
+            "oul",
+            "otto_engine",
+            "longly"
+        ]
+    },
+    {
+        "word_to_test": "lost",
+        "expected_matches": [
+            "undone",
+            "ruined"
+        ],
+        "computed_matches": [
+            "lost",
+            "ruined",
+            "look",
+            "longevity"
+        ]
+    },
+    {
+        "word_to_test": "flattery",
+        "expected_matches": [
+            "deceit",
+            "trickery"
+        ],
+        "computed_matches": [
+            "ottrelite",
+            "a_1",
+            "zymogenic",
+            "lewd"
+        ]
+    },
+    {
+        "word_to_test": "affection",
+        "expected_matches": [
+            "tenderness"
+        ],
+        "computed_matches": [
+            "abacination",
+            "covent",
+            "intentiveness",
+            "coverchief"
+        ]
+    },
+    {
+        "word_to_test": "rod",
+        "expected_matches": [
+            "pole"
+        ],
+        "computed_matches": [
+            "rod",
+            "resplendent",
+            "kibosh",
+            "ouistiti"
+        ]
+    },
+    {
+        "word_to_test": "insane",
+        "expected_matches": [
+            "mad"
+        ],
+        "computed_matches": [
+            "garrulous",
+            "insane",
+            "loll",
+            "limp"
+        ]
+    },
+    {
+        "word_to_test": "retreat",
+        "expected_matches": [
+            "solitude",
+            "retirement"
+        ],
+        "computed_matches": [
+            "oubliette",
+            "zymophyte",
+            "zythepsary",
+            "meatal"
+        ]
+    },
+    {
+        "word_to_test": "public",
+        "expected_matches": [
+            "general"
+        ],
+        "computed_matches": [
+            "investigative",
+            "saucebox",
+            "prize",
+            "litigious"
+        ]
+    },
+    {
+        "word_to_test": "separate",
+        "expected_matches": [
+            "private"
+        ],
+        "computed_matches": [
+            "ottomite",
+            "prize",
+            "cover",
+            "lewd"
+        ]
+    },
+    {
+        "word_to_test": "nice",
+        "expected_matches": [
+            "smart",
+            "spruce"
+        ],
+        "computed_matches": [
+            "probation",
+            "lurch",
+            "loyal",
+            "zymogene"
+        ]
+    }
+]

@@ -1,0 +1,126 @@
+[
+    {
+        "sentence": "a, as a prefix to english words, is derived from varioussources",
+        "actual_def": "a-",
+        "predicted_word": "a-",
+        "predicted_words_def": "a, as a prefix to english words, is derived from varioussources"
+    },
+    {
+        "sentence": "ascertaining measurements",
+        "actual_def": "measuring",
+        "predicted_word": "zymogenic",
+        "predicted_words_def": "of or pertaining to zymology"
+    },
+    {
+        "sentence": "the extent, size, capacity, amount",
+        "actual_def": "measurement",
+        "predicted_word": "measurement",
+        "predicted_words_def": "the extent, size, capacity, amount"
+    },
+    {
+        "sentence": "an object used to cover the head",
+        "actual_def": "coverchief",
+        "predicted_word": "saucer",
+        "predicted_words_def": "a shallow socket for the pivot of a capstan"
+    },
+    {
+        "sentence": "a person who abandons",
+        "actual_def": "abandoner",
+        "predicted_word": "saucer",
+        "predicted_words_def": "a shallow socket for the pivot of a capstan"
+    },
+    {
+        "sentence": "monkey of the genus mycetes",
+        "actual_def": "ouarine",
+        "predicted_word": "zymogenic",
+        "predicted_words_def": "of or pertaining to zymology"
+    },
+    {
+        "sentence": "the cycle of a four stroke internal combustion engine",
+        "actual_def": "otto_cycle",
+        "predicted_word": "covenantor",
+        "predicted_words_def": "the party who makes a covenant. burrill"
+    },
+    {
+        "sentence": "who is an ottoman",
+        "actual_def": "ottomite",
+        "predicted_word": "zythem",
+        "predicted_words_def": "see zythum"
+    },
+    {
+        "sentence": "a mineral occuring in small quantities",
+        "actual_def": "ottrelite",
+        "predicted_word": "ounce",
+        "predicted_words_def": "fig.: a small portion; a bit. [obs"
+    },
+    {
+        "sentence": "monkey of the genus brachyurus",
+        "actual_def": "ouakari",
+        "predicted_word": "zymogenic",
+        "predicted_words_def": "of or pertaining to zymology"
+    },
+    {
+        "sentence": "name a a brazilian monkey",
+        "actual_def": "ouarine",
+        "predicted_word": "ouarine",
+        "predicted_words_def": "a brazilian monkey of the genus mycetes"
+    },
+    {
+        "sentence": "socket holding a precious stone",
+        "actual_def": "ouch",
+        "predicted_word": "saucer",
+        "predicted_words_def": "a shallow socket for the pivot of a capstan"
+    },
+    {
+        "sentence": "crayon used for use stump drawing",
+        "actual_def": "sauce",
+        "predicted_word": "sauce",
+        "predicted_words_def": "a soft crayon for use in stump drawing or in shading with thestump"
+    },
+    {
+        "sentence": "a vessel with handle to prepare sauce",
+        "actual_def": "saucepan",
+        "predicted_word": "zymolysis",
+        "predicted_words_def": "the action of enzymes; also, the changes produced by suchaction. --zy`mo*lyt\"ic (#), a"
+    },
+    {
+        "sentence": "impudently",
+        "actual_def": "saucily",
+        "predicted_word": "zylonite",
+        "predicted_words_def": "celluloid"
+    },
+    {
+        "sentence": "quality or state of being saucy",
+        "actual_def": "sauciness",
+        "predicted_word": "abaca",
+        "predicted_words_def": "the manila-hemp plant (musa textilis); also, its fiber"
+    },
+    {
+        "sentence": "a hope or belief in something",
+        "actual_def": "trust",
+        "predicted_word": "ouarine",
+        "predicted_words_def": "a brazilian monkey of the genus mycetes"
+    },
+    {
+        "sentence": "a stop in the middle of a flag",
+        "actual_def": "waft",
+        "predicted_word": "zythepsary",
+        "predicted_words_def": "a brewery. [r"
+    },
+    {
+        "sentence": "spore produces by the fusion of two similar cells",
+        "actual_def": "zygosperm",
+        "predicted_word": "zymolysis",
+        "predicted_words_def": "the action of enzymes; also, the changes produced by suchaction. --zy`mo*lyt\"ic (#), a"
+    },
+    {
+        "sentence": "a soluble ferment",
+        "actual_def": "zymase",
+        "predicted_word": "abaca",
+        "predicted_words_def": "the manila-hemp plant (musa textilis); also, its fiber"
+    }
+]
+
+observation:
+is able to predict sub sentences in middle of a small sentence eg(ouarine) but not larger ones
+but mostly irrelevant

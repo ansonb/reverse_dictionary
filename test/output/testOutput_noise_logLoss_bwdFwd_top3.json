@@ -1,0 +1,282 @@
+[
+    {
+        "sentence": "a, as a prefix to english words, is derived from varioussources",
+        "actual_def": "a-",
+        "predicted_word": [
+            "a-",
+            "zymase",
+            "ottrelite"
+        ],
+        "predicted_words_def": [
+            "a, as a prefix to english words, is derived from varioussources",
+            "a soluble ferment, or enzyme. see enzyme",
+            "a micaceous mineral occurring in small scales"
+        ]
+    },
+    {
+        "sentence": "ascertaining measurements",
+        "actual_def": "measuring",
+        "predicted_word": [
+            "zymogenic",
+            "ouanderoo",
+            "sauce"
+        ],
+        "predicted_words_def": [
+            "of or pertaining to zymology",
+            "the wanderoo",
+            "a soft crayon for use in stump drawing or in shading with thestump"
+        ]
+    },
+    {
+        "sentence": "the extent, size, capacity, amount",
+        "actual_def": "measurement",
+        "predicted_word": [
+            "measurement",
+            "saucepan",
+            "abandoner"
+        ],
+        "predicted_words_def": [
+            "the extent, size, capacity, amount",
+            "a small pan with a handle, in which sauce is prepared over afire; a stewpan",
+            "one who abandons. beau. & fl"
+        ]
+    },
+    {
+        "sentence": "an object used to cover the head",
+        "actual_def": "coverchief",
+        "predicted_word": [
+            "saucer",
+            "a_1",
+            "zymogenic"
+        ],
+        "predicted_words_def": [
+            "a shallow socket for the pivot of a capstan",
+            "3",
+            "of or pertaining to zymology"
+        ]
+    },
+    {
+        "sentence": "a person who abandons",
+        "actual_def": "abandoner",
+        "predicted_word": [
+            "saucer",
+            "coverage",
+            "abacination"
+        ],
+        "predicted_words_def": [
+            "a shallow socket for the pivot of a capstan",
+            "the aggregate of risks covered by the terms of a contract ofinsurance",
+            "the act of abacinating. [r"
+        ]
+    },
+    {
+        "sentence": "monkey of the genus mycetes",
+        "actual_def": "ouarine",
+        "predicted_word": [
+            "zymogenic",
+            "ouarine",
+            "saucer"
+        ],
+        "predicted_words_def": [
+            "of or pertaining to zymology",
+            "a brazilian monkey of the genus mycetes",
+            "a shallow socket for the pivot of a capstan"
+        ]
+    },
+    {
+        "sentence": "the cycle of a four stroke internal combustion engine",
+        "actual_def": "otto_cycle",
+        "predicted_word": [
+            "covenantor",
+            "abacination",
+            "zymic"
+        ],
+        "predicted_words_def": [
+            "the party who makes a covenant. burrill",
+            "the act of abacinating. [r",
+            "pertaining to, or produced by, fermentation; -- formerly, byconfusion, used to designate lactic acid"
+        ]
+    },
+    {
+        "sentence": "who is an ottoman",
+        "actual_def": "ottomite",
+        "predicted_word": [
+            "zythem",
+            "zylonite",
+            "oughtness"
+        ],
+        "predicted_words_def": [
+            "see zythum",
+            "celluloid",
+            "the state of being as a thing ought to be; rightness. [r.] n"
+        ]
+    },
+    {
+        "sentence": "a mineral occuring in small quantities",
+        "actual_def": "ottrelite",
+        "predicted_word": [
+            "ounce",
+            "ouistiti",
+            "ouarine"
+        ],
+        "predicted_words_def": [
+            "fig.: a small portion; a bit. [obs",
+            "see wistit",
+            "a brazilian monkey of the genus mycetes"
+        ]
+    },
+    {
+        "sentence": "monkey of the genus brachyurus",
+        "actual_def": "ouakari",
+        "predicted_word": [
+            "zymogenic",
+            "a_1",
+            "ouarine"
+        ],
+        "predicted_words_def": [
+            "of or pertaining to zymology",
+            "3",
+            "a brazilian monkey of the genus mycetes"
+        ]
+    },
+    {
+        "sentence": "name a a brazilian monkey",
+        "actual_def": "ouarine",
+        "predicted_word": [
+            "ouarine",
+            "zymase",
+            "zymosis"
+        ],
+        "predicted_words_def": [
+            "a brazilian monkey of the genus mycetes",
+            "a soluble ferment, or enzyme. see enzyme",
+            "a zymotic disease. [r"
+        ]
+    },
+    {
+        "sentence": "socket holding a precious stone",
+        "actual_def": "ouch",
+        "predicted_word": [
+            "saucer",
+            "zymogenic",
+            "ouakari"
+        ],
+        "predicted_words_def": [
+            "a shallow socket for the pivot of a capstan",
+            "of or pertaining to zymology",
+            "any south american monkey of the genus brachyurus, especiallyb. ouakari"
+        ]
+    },
+    {
+        "sentence": "crayon used for use stump drawing",
+        "actual_def": "sauce",
+        "predicted_word": [
+            "sauce",
+            "zymome",
+            "abandonee"
+        ],
+        "predicted_words_def": [
+            "a soft crayon for use in stump drawing or in shading with thestump",
+            "an instrument for ascertaining the degree of fermentationoccasioned by the mixture of different liquids, and the degree ofheat which they acquire in fermentation",
+            "one to whom anything is legally abandoned"
+        ]
+    },
+    {
+        "sentence": "a vessel with handle to prepare sauce",
+        "actual_def": "saucepan",
+        "predicted_word": [
+            "zymolysis",
+            "zygospore",
+            "saucepan"
+        ],
+        "predicted_words_def": [
+            "the action of enzymes; also, the changes produced by suchaction. --zy`mo*lyt\"ic (#), a",
+            "a spore formed by the union of several zo\u00f6spores; -- called alsozygozo\u00f6spore",
+            "a small pan with a handle, in which sauce is prepared over afire; a stewpan"
+        ]
+    },
+    {
+        "sentence": "impudently",
+        "actual_def": "saucily",
+        "predicted_word": [
+            "zylonite",
+            "zymophyte",
+            "covenanting"
+        ],
+        "predicted_words_def": [
+            "celluloid",
+            "a bacteroid ferment",
+            "belonging to a covenant"
+        ]
+    },
+    {
+        "sentence": "quality or state of being saucy",
+        "actual_def": "sauciness",
+        "predicted_word": [
+            "abaca",
+            "covent",
+            "zythepsary"
+        ],
+        "predicted_words_def": [
+            "the manila-hemp plant (musa textilis); also, its fiber",
+            "a convent or monastery. [obs.] bale",
+            "a brewery. [r"
+        ]
+    },
+    {
+        "sentence": "a hope or belief in something",
+        "actual_def": "trust",
+        "predicted_word": [
+            "ouarine",
+            "ouananiche",
+            "ouistiti"
+        ],
+        "predicted_words_def": [
+            "a brazilian monkey of the genus mycetes",
+            "a small landlocked variety of the atlantic salmon (salmo salarounaniche) of lake st",
+            "see wistit"
+        ]
+    },
+    {
+        "sentence": "a stop in the middle of a flag",
+        "actual_def": "waft",
+        "predicted_word": [
+            "zythepsary",
+            "abacinate",
+            "ab-"
+        ],
+        "predicted_words_def": [
+            "a brewery. [r",
+            "to blind by a red-hot metal plate held before the eyes. [r",
+            "a prefix in many words of latin origin"
+        ]
+    },
+    {
+        "sentence": "spore produces by the fusion of two similar cells",
+        "actual_def": "zygosperm",
+        "predicted_word": [
+            "zymolysis",
+            "ounce",
+            "saucer"
+        ],
+        "predicted_words_def": [
+            "the action of enzymes; also, the changes produced by suchaction. --zy`mo*lyt\"ic (#), a",
+            "fig.: a small portion; a bit. [obs",
+            "a shallow socket for the pivot of a capstan"
+        ]
+    },
+    {
+        "sentence": "a soluble ferment",
+        "actual_def": "zymase",
+        "predicted_word": [
+            "abaca",
+            "truss",
+            "zymophyte"
+        ],
+        "predicted_words_def": [
+            "the manila-hemp plant (musa textilis); also, its fiber",
+            "to execute by hanging; to hang; -- usually with up. [slang",
+            "a bacteroid ferment"
+        ]
+    }
+]

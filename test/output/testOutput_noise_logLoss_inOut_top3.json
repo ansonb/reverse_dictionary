@@ -1,0 +1,296 @@
+[
+    {
+        "sentence": "a, as a prefix to english words, is derived from varioussources",
+        "actual_def": "a-",
+        "predicted_word": [
+            "a-",
+            "ouananiche",
+            "ottomite"
+        ],
+        "predicted_words_def": [
+            "a, as a prefix to english words, is derived from varioussources",
+            "a small landlocked variety of the atlantic salmon (salmo salarounaniche) of lake st",
+            "an ottoman. [r.] shak"
+        ]
+    },
+    {
+        "sentence": "ascertaining measurements",
+        "actual_def": "measuring",
+        "predicted_word": [
+            "meated",
+            "covenanting",
+            "abscond"
+        ],
+        "predicted_words_def": [
+            "fed; fattened. [obs.] tusser",
+            "belonging to a covenant",
+            "to hide, withdraw, or be concealed"
+        ]
+    },
+    {
+        "sentence": "the extent, size, capacity, amount",
+        "actual_def": "measurement",
+        "predicted_word": [
+            "measurement",
+            "oughwhere",
+            "zyme"
+        ],
+        "predicted_words_def": [
+            "the extent, size, capacity, amount",
+            "anywhere; somewhere. see owher. [obs",
+            "the morbific principle of a zymotic disease. quain"
+        ]
+    },
+    {
+        "sentence": "an object used to cover the head",
+        "actual_def": "coverchief",
+        "predicted_word": [
+            "zygosphene",
+            "aard-vark",
+            "otto_engine"
+        ],
+        "predicted_words_def": [
+            "a median process on the front part of the neural arch of thevertebr\u00e6 of most snakes and some lizards, which fits into a fossa,called the zygantrum, on the back part of the arch in front",
+            "an edentate mammal, of the genus orycteropus, somewhatresembling a pig, common in some parts of southern africa",
+            "an engine using the otto cycle"
+        ]
+    },
+    {
+        "sentence": "a person who abandons",
+        "actual_def": "abandoner",
+        "predicted_word": [
+            "zythepsary",
+            "wafter",
+            "zymosis"
+        ],
+        "predicted_words_def": [
+            "a brewery. [r",
+            "a boat for passage. ainsworth",
+            "a zymotic disease. [r"
+        ]
+    },
+    {
+        "sentence": "monkey of the genus mycetes",
+        "actual_def": "ouarine",
+        "predicted_word": [
+            "ouarine",
+            "zymolysis",
+            "covenous"
+        ],
+        "predicted_words_def": [
+            "a brazilian monkey of the genus mycetes",
+            "the action of enzymes; also, the changes produced by suchaction. --zy`mo*lyt\"ic (#), a",
+            "see covinous, and covin"
+        ]
+    },
+    {
+        "sentence": "the cycle of a four stroke internal combustion engine",
+        "actual_def": "otto_cycle",
+        "predicted_word": [
+            "zymogene",
+            "coverage",
+            "abacination"
+        ],
+        "predicted_words_def": [
+            "one of a physiological group of globular bacteria whichproduces fermentations of diverse nature; -- distinguished frompathogene",
+            "the aggregate of risks covered by the terms of a contract ofinsurance",
+            "the act of abacinating. [r"
+        ]
+    },
+    {
+        "sentence": "who is an ottoman",
+        "actual_def": "ottomite",
+        "predicted_word": [
+            "ottomite",
+            "zymologist",
+            "ottoman"
+        ],
+        "predicted_words_def": [
+            "an ottoman. [r.] shak",
+            "one who is skilled in zymology, or in the fermentation ofliquors",
+            "a stuffed seat without a back, originally used in turkey"
+        ]
+    },
+    {
+        "sentence": "a mineral occuring in small quantities",
+        "actual_def": "ottrelite",
+        "predicted_word": [
+            "ottrelite",
+            "zymic",
+            "ought"
+        ],
+        "predicted_words_def": [
+            "a micaceous mineral occurring in small scales",
+            "pertaining to, or produced by, fermentation; -- formerly, byconfusion, used to designate lactic acid",
+            "to be necessary, fit, becoming, or expedient; to behoove; -- inthis sense formerly sometimes used impersonally or without a subjectexpressed. \"well ought us work.\" chaucer"
+        ]
+    },
+    {
+        "sentence": "monkey of the genus brachyurus",
+        "actual_def": "ouakari",
+        "predicted_word": [
+            "saucily",
+            "covent",
+            "zymolysis"
+        ],
+        "predicted_words_def": [
+            "in a saucy manner; impudently; with impertinent boldness",
+            "a convent or monastery. [obs.] bale",
+            "the action of enzymes; also, the changes produced by suchaction. --zy`mo*lyt\"ic (#), a"
+        ]
+    },
+    {
+        "sentence": "name a a brazilian monkey",
+        "actual_def": "ouarine",
+        "predicted_word": [
+            "zymosis",
+            "abandonee",
+            "coverchief"
+        ],
+        "predicted_words_def": [
+            "a zymotic disease. [r",
+            "one to whom anything is legally abandoned",
+            "a covering for the head. [obs.] chaucer"
+        ]
+    },
+    {
+        "sentence": "socket holding a precious stone",
+        "actual_def": "ouch",
+        "predicted_word": [
+            "ouch",
+            "aard-vark",
+            "truss"
+        ],
+        "predicted_words_def": [
+            "a socket or bezel holding a precious stone; hence, a jewel orornament worn on the person",
+            "an edentate mammal, of the genus orycteropus, somewhatresembling a pig, common in some parts of southern africa",
+            "to execute by hanging; to hang; -- usually with up. [slang"
+        ]
+    },
+    {
+        "sentence": "crayon used for use stump drawing",
+        "actual_def": "sauce",
+        "predicted_word": [
+            "ottoman",
+            "zymosis",
+            "ouarine"
+        ],
+        "predicted_words_def": [
+            "a stuffed seat without a back, originally used in turkey",
+            "a zymotic disease. [r",
+            "a brazilian monkey of the genus mycetes"
+        ]
+    },
+    {
+        "sentence": "a vessel with handle to prepare sauce",
+        "actual_def": "saucepan",
+        "predicted_word": [
+            "measuring",
+            "meat",
+            "covent"
+        ],
+        "predicted_words_def": [
+            "used in, or adapted for, ascertaining measurements, or dividingby measure",
+            "to supply with food. [obs.] tusser",
+            "a convent or monastery. [obs.] bale"
+        ]
+    },
+    {
+        "sentence": "impudently",
+        "actual_def": "saucily",
+        "predicted_word": [
+            "abandonedly",
+            "ouistiti",
+            "aam"
+        ],
+        "predicted_words_def": [
+            "unrestrainedly",
+            "see wistit",
+            "a dutch and german measure of liquids, varying in differentcities, being at amsterdam about 41 wine gallons, at antwerp 36\u00bd, athamburg 38\u00bc. [written also aum and awm"
+        ]
+    },
+    {
+        "sentence": "quality or state of being saucy",
+        "actual_def": "sauciness",
+        "predicted_word": [
+            "zymogenic",
+            "zymase",
+            "oughne"
+        ],
+        "predicted_words_def": [
+            "of or pertaining to zymology",
+            "a soluble ferment, or enzyme. see enzyme",
+            "own. [obs.] chaucer"
+        ]
+    },
+    {
+        "sentence": "a hope or belief in something",
+        "actual_def": "trust",
+        "predicted_word": [
+            "otto_engine",
+            "aard-wolf",
+            "ab-"
+        ],
+        "predicted_words_def": [
+            "an engine using the otto cycle",
+            "a plant with a tall flowering stem; esp",
+            "a prefix in many words of latin origin"
+        ]
+    },
+    {
+        "sentence": "a stop in the middle of a flag",
+        "actual_def": "waft",
+        "predicted_word": [
+            "covent",
+            "ab",
+            "trussing"
+        ],
+        "predicted_words_def": [
+            "a convent or monastery. [obs.] bale",
+            "the fifth month of the jewish year according to theecclesiastical reckoning, the eleventh by the civil computation,coinciding nearly with august. w. smith",
+            "the act of a hawk, or other bird of prey, in seizing its quarry,and soaring with it into air. [obs"
+        ]
+    },
+    {
+        "sentence": "spore produces by the fusion of two similar cells",
+        "actual_def": "zygosperm",
+        "predicted_word": [
+            "coverage",
+            "sauciness",
+            "ouananiche"
+        ],
+        "predicted_words_def": [
+            "the aggregate of risks covered by the terms of a contract ofinsurance",
+            "the quality or state of being saucy; that which is saucy;impertinent boldness; contempt of superiors; impudence",
+            "a small landlocked variety of the atlantic salmon (salmo salarounaniche) of lake st"
+        ]
+    },
+    {
+        "sentence": "a soluble ferment",
+        "actual_def": "zymase",
+        "predicted_word": [
+            "covenous",
+            "ottoman",
+            "zymophyte"
+        ],
+        "predicted_words_def": [
+            "see covinous, and covin",
+            "a stuffed seat without a back, originally used in turkey",
+            "a bacteroid ferment"
+        ]
+    },
+    {
+        "sentence": "to hide, withdraw, or be concealed",
+        "actual_def": "abscond",
+        "predicted_word": [
+            "abscond",
+            "zymogenic",
+            "measuring"
+        ],
+        "predicted_words_def": [
+            "to hide, withdraw, or be concealed",
+            "of or pertaining to zymology",
+            "used in, or adapted for, ascertaining measurements, or dividingby measure"
+        ]
+    }
+]

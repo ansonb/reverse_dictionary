@@ -1,0 +1,5 @@
+Input: a soluble ferment
+Parse:
+ferment NN ROOT
+ +-- a DT det
+ +-- soluble JJ amod

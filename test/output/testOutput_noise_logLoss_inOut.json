@@ -1,0 +1,128 @@
+[
+    {
+        "sentence": "a, as a prefix to english words, is derived from varioussources",
+        "actual_def": "a-",
+        "predicted_word": "a-",
+        "predicted_words_def": "a, as a prefix to english words, is derived from varioussources"
+    },
+    {
+        "sentence": "ascertaining measurements",
+        "actual_def": "measuring",
+        "predicted_word": "meated",
+        "predicted_words_def": "fed; fattened. [obs.] tusser"
+    },
+    {
+        "sentence": "the extent, size, capacity, amount",
+        "actual_def": "measurement",
+        "predicted_word": "measurement",
+        "predicted_words_def": "the extent, size, capacity, amount"
+    },
+    {
+        "sentence": "an object used to cover the head",
+        "actual_def": "coverchief",
+        "predicted_word": "zygosphene",
+        "predicted_words_def": "a median process on the front part of the neural arch of thevertebr\u00e6 of most snakes and some lizards, which fits into a fossa,called the zygantrum, on the back part of the arch in front"
+    },
+    {
+        "sentence": "a person who abandons",
+        "actual_def": "abandoner",
+        "predicted_word": "zythepsary",
+        "predicted_words_def": "a brewery. [r"
+    },
+    {
+        "sentence": "monkey of the genus mycetes",
+        "actual_def": "ouarine",
+        "predicted_word": "ouarine",
+        "predicted_words_def": "a brazilian monkey of the genus mycetes"
+    },
+    {
+        "sentence": "the cycle of a four stroke internal combustion engine",
+        "actual_def": "otto_cycle",
+        "predicted_word": "zymogene",
+        "predicted_words_def": "one of a physiological group of globular bacteria whichproduces fermentations of diverse nature; -- distinguished frompathogene"
+    },
+    {
+        "sentence": "who is an ottoman",
+        "actual_def": "ottomite",
+        "predicted_word": "ottomite",
+        "predicted_words_def": "an ottoman. [r.] shak"
+    },
+    {
+        "sentence": "a mineral occuring in small quantities",
+        "actual_def": "ottrelite",
+        "predicted_word": "ottrelite",
+        "predicted_words_def": "a micaceous mineral occurring in small scales"
+    },
+    {
+        "sentence": "monkey of the genus brachyurus",
+        "actual_def": "ouakari",
+        "predicted_word": "saucily",
+        "predicted_words_def": "in a saucy manner; impudently; with impertinent boldness"
+    },
+    {
+        "sentence": "name a a brazilian monkey",
+        "actual_def": "ouarine",
+        "predicted_word": "zymosis",
+        "predicted_words_def": "a zymotic disease. [r"
+    },
+    {
+        "sentence": "socket holding a precious stone",
+        "actual_def": "ouch",
+        "predicted_word": "ouch",
+        "predicted_words_def": "a socket or bezel holding a precious stone; hence, a jewel orornament worn on the person"
+    },
+    {
+        "sentence": "crayon used for use stump drawing",
+        "actual_def": "sauce",
+        "predicted_word": "ottoman",
+        "predicted_words_def": "a stuffed seat without a back, originally used in turkey"
+    },
+    {
+        "sentence": "a vessel with handle to prepare sauce",
+        "actual_def": "saucepan",
+        "predicted_word": "measuring",
+        "predicted_words_def": "used in, or adapted for, ascertaining measurements, or dividingby measure"
+    },
+    {
+        "sentence": "impudently",
+        "actual_def": "saucily",
+        "predicted_word": "abandonedly",
+        "predicted_words_def": "unrestrainedly"
+    },
+    {
+        "sentence": "quality or state of being saucy",
+        "actual_def": "sauciness",
+        "predicted_word": "zymogenic",
+        "predicted_words_def": "of or pertaining to zymology"
+    },
+    {
+        "sentence": "a hope or belief in something",
+        "actual_def": "trust",
+        "predicted_word": "otto_engine",
+        "predicted_words_def": "an engine using the otto cycle"
+    },
+    {
+        "sentence": "a stop in the middle of a flag",
+        "actual_def": "waft",
+        "predicted_word": "covent",
+        "predicted_words_def": "a convent or monastery. [obs.] bale"
+    },
+    {
+        "sentence": "spore produces by the fusion of two similar cells",
+        "actual_def": "zygosperm",
+        "predicted_word": "coverage",
+        "predicted_words_def": "the aggregate of risks covered by the terms of a contract ofinsurance"
+    },
+    {
+        "sentence": "a soluble ferment",
+        "actual_def": "zymase",
+        "predicted_word": "covenous",
+        "predicted_words_def": "see covinous, and covin"
+    },
+    {
+        "sentence": "to hide, withdraw, or be concealed",
+        "actual_def": "abscond",
+        "predicted_word": "abscond",
+        "predicted_words_def": "to hide, withdraw, or be concealed"
+    }
+]
