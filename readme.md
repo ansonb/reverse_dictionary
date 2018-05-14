@@ -4,7 +4,7 @@ This is a reverse dictionary application using the Webster's unabridged dictiona
 
 Installation:
 ==============
-1)Python 3
+1) Python 3
 Dependencies:
 Tensorflow
 
@@ -27,7 +27,7 @@ To make the parsed trees run make_parse_tree.py (config.py in the root directory
 
 Training
 ===============
-1)LSTM
+1) LSTM
 In ml folder run train_log_loss.py
 
 2) RNN
@@ -40,7 +40,7 @@ config.py contains the parameters and the model and data file paths
 
 Inference/Test
 ==============
-1)LSTM
+1) LSTM
 In test folder run test_end2end.py
 
 2) RNN
@@ -48,3 +48,7 @@ In ml folder run test_parsed.py
 
 3) RNN 2
 In ml folder run test_parsed_2.py
+
+TODO
+=============
+In model_recursive_nn_2.py in getWeightage take the product of the outputs instead of maxpool

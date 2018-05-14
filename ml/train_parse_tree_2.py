@@ -293,7 +293,12 @@ with tf.Session() as sess:
 	b,\
 	W_out,\
 	b_out,\
-	optimizer = model_recursive_nn_2.build_graph(sess,
+	optimizer,\
+	W_weightage,\
+	W_fc1,\
+	b_fc1,\
+	W_fc2,\
+	b_fc2 = model_recursive_nn_2.build_graph(sess,
 						dictionary,
 						NUM_CLASSES,
 						vocabulary_size,
@@ -328,6 +333,11 @@ with tf.Session() as sess:
 					op_arr,
 					epoch,
 					pos_dict,
+					W_weightage,
+					W_fc1,
+					b_fc1,
+					W_fc2,
+					b_fc2,
 					cur_example=cur_example)
 
 				if step%saveEvery == 0:
@@ -360,6 +370,11 @@ with tf.Session() as sess:
 					op_arr,
 					epoch,
 					pos_dict,
+					W_weightage,
+					W_fc1,
+					b_fc1,
+					W_fc2,
+					b_fc2,
 					cur_example=cur_example_num)
 
 				if step%saveEvery == 0:

@@ -22,9 +22,15 @@ def build_graph(sess,
 	
 	b = tf.Variable(np.zeros((embedding_size)), name='bias_general', dtype=tf.float32)
 
-	# W_out = tf.transpose(tf.nn.embedding_lookup(V_in,out_words_dict_num))
-	W_out = tf.Variable(tf.random_uniform([embedding_size,NUM_CLASSES], minval=-1.0, maxval=1.0), name='w_out', dtype=tf.float32)
+	W_out = tf.transpose(tf.nn.embedding_lookup(V_in,out_words_dict_num))
+	# W_out = tf.Variable(tf.random_uniform([embedding_size,NUM_CLASSES], minval=-1.0, maxval=1.0), name='w_out', dtype=tf.float32)
 	b_out = tf.Variable(np.zeros((NUM_CLASSES)), name='bias_out', dtype=tf.float32)
+
+	W_weightage = tf.Variable(tf.random_uniform([embedding_size,16], minval=-1.0, maxval=1.0), name='weightage_matrix', dtype=tf.float32)
+	W_fc1 = tf.Variable(tf.random_uniform([32,10], minval=-1.0, maxval=1.0), name='W_fc1', dtype=tf.float32)
+	b_fc1 = tf.Variable(np.zeros((10)), name='bias_fc1', dtype=tf.float32)
+	W_fc2 = tf.Variable(tf.random_uniform([10,1], minval=-1.0, maxval=1.0), name='W_fc2', dtype=tf.float32)
+	b_fc2 = tf.Variable(np.zeros((1)), name='bias_fc2', dtype=tf.float32)
 
 	# input_shape_tensor = tf.placeholder(tf.int32,shape=[1])
 	# input_tensor = tf.placeholder(tf.int32,shape=input_shape)
@@ -61,7 +67,12 @@ def build_graph(sess,
 	b,\
 	W_out,\
 	b_out,\
-	optimizer
+	optimizer,\
+	W_weightage,\
+	W_fc1,\
+	b_fc1,\
+	W_fc2,\
+	b_fc2
 
 def runRecursiveGraph(_input, W, V_in, V_out, b, f, input_shape, cur_pos):
 	# print('len(input_shape)')
@@ -202,12 +213,17 @@ def run_train_graph(sess,
 	op_arr,
 	epoch,
 	pos_dict,
+	W_weightage,
+	W_fc1,
+	b_fc1,
+	W_fc2,
+	b_fc2,
 	cur_example=0):
 	
 	if epoch == 0:
 		input_json = _input['dep_tree']
 
-		recursion_out = runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary,pos_dict)
+		recursion_out = runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary,pos_dict,W_weightage,W_fc1,b_fc1,W_fc2,b_fc2)
 
 		loss, logits = getLoss({
 			'weights': W_out,
@@ -266,11 +282,16 @@ def run_test_graph(sess,
 	optimizer,
 	dictionary,
 	NUM_CLASSES,
-	pos_dict):
+	pos_dict,
+	W_weightage,
+    W_fc1,
+    b_fc1,
+    W_fc2,
+    b_fc2):
 	
 	input_json = _input['dep_tree']
 
-	recursion_out = runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary,pos_dict)
+	recursion_out = runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary,pos_dict,W_weightage,W_fc1,b_fc1,W_fc2,b_fc2)
 
 	loss, logits = getLoss({
 		'weights': W_out,
@@ -306,9 +327,44 @@ def getOutEmbeddings(sess,
 
 	return evaluated_out_embedding
 
-def runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary,pos_dict):
+def getWeightage(words,W_weightage,W_fc1,b_fc1,W_fc2,b_fc2,dictionary,V_in):
+	out = []
+	for word in words:
+		word_emb = tf.nn.embedding_lookup(V_in,word)
+		word_emb_reshaped = tf.reshape(word_emb,(1,32))
+
+		fc1_out_0 = tf.matmul(word_emb_reshaped,W_fc1)
+		fc1_out_1 = tf.add(fc1_out_0,b_fc1)
+		fc1_out = tf.nn.tanh(fc1_out_1)
+
+		fc2_out_0 = tf.matmul(fc1_out,W_fc2)
+		fc2_out_1 = tf.add(fc2_out_0,b_fc2)
+		fc2_out = tf.nn.tanh(fc2_out_1)
+		fc2_out = tf.reshape(fc2_out,())
+
+		out.append(fc2_out)
+
+	n_h = len(out)
+	out_reshaped = tf.reshape(out,[1,n_h,1,1])
+	k_size = [1,n_h,1,1]
+	strides = [1,1,1,1]
+	padding = 'VALID'
+	pooled_outputs = tf.nn.max_pool(out_reshaped,k_size,strides,padding)
+	pooled_outputs_reshaped = tf.reshape(pooled_outputs,())
+	
+	final_weight = tf.sign(pooled_outputs_reshaped)
+
+	# print('fc2_out')
+	# print(fc2_out)
+
+	return final_weight
+
+
+def runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary,pos_dict,W_weightage,W_fc1,b_fc1,W_fc2,b_fc2):
 	if len(input_json)==0:
 		return initialize_f(config.embedding_size)
+
+	f = initialize_f(config.embedding_size)
 
 	for node in input_json:
 		# print('node')
@@ -324,12 +380,18 @@ def runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary,pos_dict):
 
 		cur_embedding = tf.nn.embedding_lookup(V_in,cur_word)
 		embedding_char_in = tf.reshape(cur_embedding,(1,32))
-		f = tf.add(tf.matmul(embedding_char_in,W[pos_dict[cur_pos]]),b)
+		f_cur = tf.add(tf.matmul(embedding_char_in,W[pos_dict[cur_pos]]),b)
 
-		f_children = runRecursiveGraph2(children,W,V_in,V_out,b,dictionary,pos_dict)
-		f = tf.add(f,f_children)
+		f_children = runRecursiveGraph2(children,W,V_in,V_out,b,dictionary,pos_dict,W_weightage,W_fc1,b_fc1,W_fc2,b_fc2)
+		f_0 = tf.nn.relu(tf.add(f_cur,f_children))
 
-	f = tf.nn.relu(f)
+		#find out the weightage to be given to this bunch
+		words = [dictionary.get(cur_word,dictionary['UNK'])] + [dictionary.get(node['word'],dictionary['UNK']) for node in children]
+		w = getWeightage(words,W_weightage,W_fc1,b_fc1,W_fc2,b_fc2,dictionary,V_in)
+
+		f = tf.add(f,f_0*w)
+
+	# f = tf.nn.relu(f)
 
 	return f
 
@@ -354,7 +416,7 @@ def train_step(sess,
 #define the loss function
 def getLoss(params):
   logits = tf.matmul(params['network_output'], params['weights'])
-  logits = tf.nn.bias_add(logits, params['biases'])
+  # logits = tf.nn.bias_add(logits, params['biases'])
   labels_reshaped = tf.reshape(params['output_word'],[-1])
   labels_one_hot = tf.one_hot(labels_reshaped, params['num_classes'])
   loss = tf.nn.sigmoid_cross_entropy_with_logits(

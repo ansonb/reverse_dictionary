@@ -21,8 +21,8 @@ def build_graph(sess,
 	
 	b = tf.Variable(np.zeros((embedding_size)), name='bias_general', dtype=tf.float32)
 
-	W_out = tf.transpose(tf.nn.embedding_lookup(V_in,out_words_dict_num))
-	# W_out = tf.Variable(tf.random_uniform([embedding_size,NUM_CLASSES], minval=-1.0, maxval=1.0), name='w_out', dtype=tf.float32)
+	# W_out = tf.transpose(tf.nn.embedding_lookup(V_in,out_words_dict_num))
+	W_out = tf.Variable(tf.random_uniform([embedding_size,NUM_CLASSES], minval=-1.0, maxval=1.0), name='w_out', dtype=tf.float32)
 	b_out = tf.Variable(np.zeros((NUM_CLASSES)), name='bias_out', dtype=tf.float32)
 
 	# input_shape_tensor = tf.placeholder(tf.int32,shape=[1])
@@ -307,6 +307,8 @@ def runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary):
 	if len(input_json)==0:
 		return initialize_f(config.embedding_size)
 
+	f = initialize_f(config.embedding_size)
+
 	for node in input_json:
 		# print('node')
 		# print(node)
@@ -319,12 +321,14 @@ def runRecursiveGraph2(input_json,W,V_in,V_out,b,dictionary):
 
 		cur_embedding = tf.nn.embedding_lookup(V_in,cur_word)
 		embedding_char_in = tf.reshape(cur_embedding,(1,32))
-		f = tf.add(tf.matmul(embedding_char_in,W),b)
+		f_cur = tf.add(tf.matmul(embedding_char_in,W),b)
 
 		f_children = runRecursiveGraph2(children,W,V_in,V_out,b,dictionary)
-		f = tf.add(f,f_children)
+		f_0 = tf.nn.relu(tf.add(f_cur,f_children))
 
-	f = tf.nn.relu(f)
+		f = tf.add(f,f_0)
+
+	# f = tf.nn.relu(f)
 
 	return f
 
