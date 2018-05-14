@@ -2,3 +2,4 @@ model
 data
 changes
 *.zip
+__pycache__
